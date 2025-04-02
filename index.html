@@ -1,31 +1,133 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Alexis's Cool Site</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        background-color: #0f172a;
-        color: #f8fafc;
-        text-align: center;
-        padding: 50px;
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Alexis Loveraz</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background: #f4f4f5;
+      color: #1f2937;
+      line-height: 1.6;
+      padding: 2rem;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2563eb;
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .box {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 2rem;
+      margin: 2rem auto;
+      max-width: 800px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+    }
+
+    .box img {
+      float: left;
+      margin-right: 1.5rem;
+      margin-bottom: 1rem;
+      max-width: 200px;
+      border-radius: 8px;
+    }
+
+    .flex-wrap {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+    } 
+
+    .text-wrap {
+      flex: 1;
+      min-width: 250px;
+    }
+
+    h2 {
+      margin-top: 0;
+      font-size: 1.6rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    .github-section {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .github-button {
+      background-color: #2563eb;
+      color: white;
+      padding: 0.6rem 1.2rem;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 1rem;
+      transition: background-color 0.2s ease;
+    }
+
+    .github-button:hover {
+      background-color: #1e40af;
+    }
+
+    @media (max-width: 600px) {
+      .box img {
+        float: none;
+        display: block;
+        margin: 0 auto 1rem auto;
       }
-      h1 {
-        font-size: 3em;
-        color: #38bdf8;
-      }
-      p {
-        font-size: 1.2em;
-      }
-      a {
-        color: #facc15;
-        text-decoration: none;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>Welcome to AlexisLoveraz.me 💻</h1>
-    <p>This is my very first custom site! 🚀</p>
-    <p>Check out my <a href="https://github.com/AlexisLoveraz" target="_blank">GitHub</a></p>
-  </body>
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Who am I?</h1>
+
+  <div class="box">
+    <h2>Alexis Loveraz</h2>
+    <div class="flex-wrap">
+      <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExenVndzYzN21oMnVqZTd5eGlqYjc3Y2JzeHFtNHdhcHVueWp1NWZxeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Y4ak9Ki2GZCbJxAnJD/giphy.gif" alt="a guy coding" />
+      <div class="text-wrap">
+        <p>
+          I’m a <strong> senior @ </strong><span style="color: #138254; font-weight: bold;">Dartmouth College</span>, and I’m really interested in how people interact with design. Specifically, how things look, feel, and work.
+          I care about creating experiences that make sense for people. 
+          That’s what led me to <Strong>Cognitive Science and Human-Centered Design. </Strong>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="box">
+    <h2>Some current goals:</h2>
+    <ul>
+      <li>Build a full portfolio site completely from scratch <em>(feeling optimistic)</em> 😅</li>
+      <li>Get more confident writing HTML, CSS, and JavaScript <em>(definetely)</em> 👍</li>
+      <li>Understand the front-end side of things when working on design teams @ DALI - <em>(absolutely)</em> ✅</li>
+      <li>Learn how to collaborate better with developers <em>(100%)</em> 🤝</li>
+    </ul>
+  </div>
+
+  <div class="github-section">
+    <p>I don’t have any projects up yet, but hey — still check out my GitHub:</p>
+    <a class="github-button" href="https://github.com/AlexisLoveraz" target="_blank">Visit GitHub</a>
+  </div>
+
+</body>
 </html>
