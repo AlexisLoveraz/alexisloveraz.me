@@ -1,9 +1,21 @@
+<!-- 
+  Name: Alexis Loveraz
+  Hello World & Local Dev Environment Assignment :)
+
+  Acknowledgment: 
+  - Style section was supported with ChatGPT prompts
+  - HTML layout structure inspired by Ljemma’s intro video & ChatGPT
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Alexis Loveraz</title>
-  <style>
+  <meta charset="UTF-8" /> <!-- Supports emoji and special characters in local host -->
+  <title>Alexis Loveraz</title> 
+
+  <!-- For this assignment, I included all styling directly in this HTML file instead of using a separate CSS file with the help of ChatGPT -->
+
+  <style> 
     body {
       margin: 0;
       font-family: 'Helvetica Neue', sans-serif;
@@ -37,7 +49,7 @@
       border-radius: 8px;
     }
 
-    .flex-wrap {
+    /* .flex-wrap {
       display: flex;
       flex-wrap: wrap;
       align-items: flex-start;
@@ -46,7 +58,7 @@
     .text-wrap {
       flex: 1;
       min-width: 250px;
-    }
+    } */
 
     h2 {
       margin-top: 0;
@@ -68,10 +80,10 @@
     .github-section {
       text-align: center;
       margin-top: 2rem;
-    }
+    } 
 
     .github-button {
-      background-color: #2563eb;
+      background-color: #1a9f27;
       color: white;
       padding: 0.6rem 1.2rem;
       border: none;
@@ -84,7 +96,7 @@
     }
 
     .github-button:hover {
-      background-color: #1e40af;
+      background-color: #1a9f27a7;
     }
 
     @media (max-width: 600px) {
@@ -103,16 +115,29 @@
       }
     }
   </style>
+
+  <!-- Here I added the following: the background color, header color, box layout (with rounded corners and shadows), 
+  paragraph text, and added some styling for the GitHub button (with a hover effect too!) -->
+
 </head>
 <body>
-
-  <h1>Who am I?</h1>
+  
+  <div style="
+  max-width: 820px;
+  margin: 2rem auto 1rem auto;
+  background-color: #4160c5;
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);">
+  <h1 style="margin: 0; font-size: 1.8rem; color: #fefefe;">Who am I?</h1>
+  </div>
 
   <div class="box">
     <h2>Alexis Loveraz</h2>
-    <div class="flex-wrap">
+    <div class="flex-wrap"> <!-- This is the parent flex container -->
       <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExenVndzYzN21oMnVqZTd5eGlqYjc3Y2JzeHFtNHdhcHVueWp1NWZxeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Y4ak9Ki2GZCbJxAnJD/giphy.gif" alt="a guy coding" />
-      <div class="text-wrap">
+      <div class="text-wrap"> <!-- This holds the paragraph content -->
         <p>
           I’m a <strong>senior @ </strong><span style="color: #138254; font-weight: bold;">Dartmouth College</span>, and I’m really interested in how people interact with design. Specifically, how things look, feel, and work.
           I care about creating experiences that make sense for people. 
@@ -122,7 +147,7 @@
     </div>
   </div>
 
-  <div class="box">
+  <div class="box"> <!-- This is the second box and I decided to add a list with goals for the class/myself -->
     <h2>Some current goals:</h2>
     <ul>
       <li>Build a full portfolio site completely from scratch <em>(feeling optimistic)</em> 😅</li>
@@ -132,8 +157,8 @@
     </ul>
   </div>
 
-  <div class="github-section">
-    <p>I don’t have any projects up yet, but hey — still check out my GitHub:</p>
+  <div class="github-section"> <!-- Lastly, added a button to my GitHub :) -->
+    <p><em>I don’t have any projects up yet, but hey — still check out my GitHub:</em></p>
     <a class="github-button" href="https://github.com/AlexisLoveraz" target="_blank">Visit GitHub</a>
   </div>
 
