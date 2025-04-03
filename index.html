@@ -1,155 +1,50 @@
 <!-- 
   Name: Alexis Loveraz
+  Date: 04/02/25
   Hello World & Local Dev Environment Assignment :)
 
   Acknowledgment: 
-  - Style section was supported with ChatGPT prompts
-  - HTML layout structure inspired by Ljemma’s intro video & ChatGPT
--->
+  - HTML layout structure inspired by Ljemma’s intro video & ChatGPT styling -->
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" /> <!-- Supports emoji and special characters in local host -->
+  <meta charset="UTF-8"/> 
   <title>Alexis Loveraz</title> 
 
-  <!-- For this assignment, I included all styling directly in this HTML file instead of using a separate CSS file with the help of ChatGPT -->
-
-  <style> 
-    body {
-      margin: 0;
-      font-family: 'Helvetica Neue', sans-serif;
-      background: #f4f4f5;
-      color: #1f2937;
-      line-height: 1.6;
-      padding: 2rem;
-    }
-
+  <style>
     h1 {
-      text-align: center;
-      color: #2563eb;
-      font-size: 2.5rem;
-      margin-bottom: 2rem;
-    }
-
-    .box {
-      background: #ffffff;
-      border-radius: 12px;
-      padding: 2rem;
-      margin: 2rem auto;
-      max-width: 800px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
-    }
-
-    .box img {
-      float: left;
-      margin-right: 1.5rem;
-      margin-bottom: 1rem;
-      max-width: 200px;
-      border-radius: 8px;
-    }
-
-    h2 {
-      margin-top: 0;
-      font-size: 1.6rem;
-    }
-
-    p {
-      font-size: 1.1rem;
-    }
-
-    ul {
-      padding-left: 1.2rem;
-    }
-
-    li {
-      margin-bottom: 0.5rem;
-    }
-
-    .github-section {
-      text-align: center;
-      margin-top: 2rem;
-    } 
-
-    .github-button {
-      background-color: #1a9f27;
-      color: white;
-      padding: 0.6rem 1.2rem;
-      border: none;
-      border-radius: 6px;
-      font-size: 1rem;
-      text-decoration: none;
-      display: inline-block;
-      margin-top: 1rem;
-      transition: background-color 0.2s ease;
-    }
-
-    .github-button:hover {
-      background-color: #147f1fd4;
-    }
-
-    @media (max-width: 600px) {
-      .box img {
-        float: none;
-        display: block;
-        margin: 0 auto 1rem auto;
-      }
-
-      h2 {
-        font-size: 1.6rem;
-      }
-
-      .text-wrap p {
-        font-size: 1.1rem;
-      }
+      color: #267099;
+      text-align: left;
     }
   </style>
 
-  <!-- Here I added the following: the background color, header color, box layout (with rounded corners and shadows), 
-  paragraph text, and added some styling for the GitHub button (with a hover effect too!) -->
-
 </head>
+
 <body>
-  
-  <div style="
-  max-width: 800px;
-  margin: 2rem auto 1rem auto;
-  background-color: white; /* soft sky blue */
-  border-radius: 12px;
-  padding: 1rem 2rem;
-  text-align: center;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);">
-  <h1 style="margin: 0; font-size: 1.8rem; color: #0b73ab;">Who am I?</h1>
-  </div>
 
-  <div class="box">
-    <h2>Alexis Loveraz</h2>
-    <div class="flex-wrap"> <!-- This is the parent flex container -->
-      <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExenVndzYzN21oMnVqZTd5eGlqYjc3Y2JzeHFtNHdhcHVueWp1NWZxeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Y4ak9Ki2GZCbJxAnJD/giphy.gif" alt="a guy coding" />
-      <div class="text-wrap"> <!-- This holds the paragraph content -->
-        <p>
-          I’m a <strong>senior @ </strong><span style="color: #138254; font-weight: bold;">Dartmouth College</span>, and I’m really interested in how people interact with design. Specifically, how things look, feel, and work.
-          I care about creating experiences that make sense for people. 
-          That’s what led me to <strong>Cognitive Science and Human-Centered Design.</strong>
-        </p>
-      </div>
-    </div>
-  </div>
+  <h2>Hi! I am...</h2>
 
-  <div class="box"> <!-- This is the second box and I decided to add a list with goals for the class/myself -->
-    <h2>Some current goals:</h2>
-    <ul>
-      <li>Build a full portfolio site completely from scratch <em>(feeling optimistic)</em> 😅</li>
-      <li>Get more confident writing HTML, CSS, and JavaScript <em>(definitely)</em> 👍</li>
-      <li>Understand the front-end side of things when working on design teams @ DALI <em>(absolutely)</em> ✅</li>
-      <li>Learn how to collaborate better with developers <em>(100%)</em> 🤝</li>
-    </ul>
-  </div>
+  <h1>Alexis Loveraz</h1>
 
-  <div class="github-section"> <!-- Lastly, added a button to my GitHub :) -->
-    <p><em>I don’t have any projects up yet, but hey — still check out my GitHub:</em></p>
-    <a class="github-button" href="https://github.com/AlexisLoveraz" target="_blank">Visit GitHub</a>
-  </div>
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExenVndzYzN21oMnVqZTd5eGlqYjc3Y2JzeHFtNHdhcHVueWp1NWZxeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Y4ak9Ki2GZCbJxAnJD/giphy.gif" alt="a guy coding" width="250">
+
+  <p>
+    I’m a <strong>senior @ </strong><span>Dartmouth College</span>, and I’m really interested in how people interact with design. Specifically, how things look, feel, and work.
+    I care about creating experiences that make sense for people. 
+    That’s what led me to <strong>Cognitive Science and Human-Centered Design.</strong>
+  </p>
+
+  <h3>Some current goals:</h3>
+  <ul>
+    <li>Build a full portfolio site completely from scratch <em>(feeling optimistic)</em> 😅</li>
+    <li>Get more confident writing HTML, CSS, and JavaScript <em>(definitely)</em> 👍</li>
+    <li>Understand the front-end side of things when working on design teams @ DALI <em>(absolutely)</em> ✅</li>
+    <li>Learn how to collaborate better with developers <em>(100%)</em> 🤝</li>
+  </ul>
+
+  <p><em>I don’t have any projects up yet, but hey — still check out my GitHub:</em></p>
+  <p><a href="https://github.com/AlexisLoveraz" target="_blank">Visit GitHub</a></p>
 
 </body>
 </html>
